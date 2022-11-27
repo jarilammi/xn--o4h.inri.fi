@@ -1,3 +1,13 @@
+.red-card {
+  --primary-color: hsl(373, 100%, 45%);
+  --secondary-color: white;
+}
+
+.violet-card {
+  --primary-color: hsl(272, 100%, 45%);
+  --secondary-color: white;
+}
+
 .inri-card {
   background-color: transparent;
   width: 400px;
@@ -28,12 +38,12 @@
 }
 
 .inri-card-front {
-  background-color: hsl(272, 100%, 45%);
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .inri-card-back {
-  background-color: hsl(373, 100%, 45%);
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   transform: rotateY(180deg);
 }
