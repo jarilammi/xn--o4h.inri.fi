@@ -1,19 +1,19 @@
-.green-card {
+.color-green {
   --primary-color: hsl(125, 100%, 30%);
   --secondary-color: white;
 }
 
-.red-card {
-  --primary-color: hsl(373, 100%, 45%);
+.color-red {
+  --primary-color: hsl(0, 100%, 45%);
   --secondary-color: white;
 }
 
-.violet-card {
+.color-violet {
   --primary-color: hsl(272, 100%, 45%);
   --secondary-color: white;
 }
 
-.wine-card {
+.color-wine {
   --primary-color: hsl(342, 100%, 35%);
   --secondary-color: white;
 }
