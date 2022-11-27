@@ -18,6 +18,11 @@
   --secondary-color: white;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .inri-card {
   background-color: transparent;
   width: 400px;
