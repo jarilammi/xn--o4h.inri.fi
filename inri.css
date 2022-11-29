@@ -3,9 +3,19 @@
   --secondary-color: white;
 }
 
+.color-blue {
+  --primary-color: hsl(240, 89%, 50%);
+  --secondary-color: white;
+}
+
 .color-red {
   --primary-color: hsl(0, 100%, 45%);
   --secondary-color: white;
+}
+
+.color-sky {
+  --primary-color: hsl(230, 84%, 85%);
+  --secondary-color: black;
 }
 
 .color-violet {
